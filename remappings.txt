@@ -1,2 +1,4 @@
+@prepo/=src/core/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
 ds-test/=lib/ds-test/src/
-prepo/=lib/2022-03-prepo/contracts/
