@@ -26,11 +26,10 @@ contract WithdrawHook is IHook, Ownable {
         _depositRecord.recordWithdrawal(_sender, _finalAmount);
     }
 
-
-
-////hei
+    ////hei
     function setVault(address _newVault) external override onlyOwner {
         _vault = _newVault;
+
         emit VaultChanged(_newVault);
     }
 
